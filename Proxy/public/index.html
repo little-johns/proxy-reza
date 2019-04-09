@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+         <title>Goblinhood</title>
+    </head>
+    <body>
+        <div id='Stock-hart'></div>
+        <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+        <script src='http://localhost:7000/bundle.js'></script>
+
+        <script>
+             ReactDOM.render(
+             React.createElement(StockChart),
+             document.getElementById('StockChart')
+            );
+        </script>
+    </body>   
+</html>
