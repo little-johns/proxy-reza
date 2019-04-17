@@ -1,5 +1,4 @@
 const express = require('express');
-const morgan = require('morgan');
 const path = require('path');
 const cors = require('cors');
 const axios = require('axios');
@@ -22,7 +21,7 @@ const chartReq = axios.create({
   })
 
   const buyFormReq = axios.create({
-      baseURL: 'http://ec2-3-84-115-167.compute-1.amazonaws.com:8080/' 
+      baseURL: 'http://ec2-54-89-184-8.compute-1.amazonaws.com:8080/' 
   });
 
   app.get('/stocks/:query', (req, res) => {
