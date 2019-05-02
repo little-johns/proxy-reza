@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/menintights/proxy-server-sebastian/issues"
   },
-  "homepage": "https://github.com/menintights/proxy-server-sebastian#readme"
+  "homepage": "https://github.com/menintights/proxy-server-sebastian#readme",
+  "dependencies": {
+    "artillery": "^1.6.0-28"
+  }
 }
